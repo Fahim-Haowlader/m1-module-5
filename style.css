@@ -9,7 +9,7 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
-section {
+.hero {
     height: 750px;
     background-image: linear-gradient(00deg, rgb(16, 16, 16) -19.5%, rgba(16, 16, 16, 0) 100%), url(/make-essential-UI-components-Resources/assets/hero-bg.png);
     background-size: cover;
@@ -32,7 +32,7 @@ section {
     letter-spacing: 0%;
     text-align: center;
     opacity: .8;
-    margin: 13px 0px;
+    margin: 1px 0px;
 }
 
 .heading {
@@ -60,19 +60,179 @@ section {
 
 .button-div {
     text-align: center;
- 
+
 }
+
 button {
     padding: 10px 20px 10px 20px;
     background: rgb(82, 195, 3);
     color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: none;
+    border-radius: 6px;
+    margin: 21px 0px;
+}
+
+.card-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
+
+.card-container {
+    width: 900px;
+    height: 650px;
+    
+
+
+
+}
+
+.card-subtitl {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: .6;
+    margin: 8px 0px;
+}
+
+.card-titl {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 30px 200px;
+}
+
+.card-itms {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.itm-img {
+    width: 270px;
+    height: 180px;
+    margin: 20px 0px;
+}
+
+.itm-nam {
+    margin: 0px 7px;
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+span {
+    margin: 19px 0px;
+    padding: 8px 22px;
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+    color: rgb(16, 16, 16);
+}
+
+.itm-hading {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.itm-subtitl {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: .7;
+    margin: 20px 0px;
+}
+
+.anothr {
+    margin: 40px 0px;
+}
+.about-us{
+    height: 500px;
+    display: flex;
+}
+.about-img{
+    width: 50%;
+}
+.about-img img{
+    width: 100%;
+    height: 100%;
+}
+.about-containr{ width: 50%;
+    /* border: 1px solid red; */
+}
+.about-hading{
+    color: rgb(16, 16, 16);
 font-family: Work Sans;
-font-size: 14px;
-font-weight: 600;
-line-height: 16px;
+font-size: 30px;
+font-weight: 700;
+line-height: 40px;
 letter-spacing: 0%;
 text-align: center;
-border: none;
-border-radius: 6px;
-margin: 21px 0px;
+margin: 80px 50px 30px 50px;
+}
+.about-dscription{
+
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: .6;
+   margin: 20px 180px 20px 180px;
+}
+hr {
+    margin: 35px 0px ;
+}
+.about-rqust{
+    opacity: .7;
+
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 22px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+}
+.about-icon{
+    margin: 40px 0px;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+    
+}
+i{
+    margin: 0px 10px;
 }
